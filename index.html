@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App | Fundamental Front-End Web Development Project</title>
+</head>
+
+<body>
+    <!-- Importing Web Components -->
+    <script src="components/app-bar.js" defer></script>
+    <script src="components/footer-bar.js" defer></script>
+    <script src="components/note-form.js" defer></script>
+    <script src="components/note-item.js" defer></script>
+
+    <!-- Main Part -->
+    <app-bar></app-bar>
+    <main>
+        <note-form id="note-form"></note-form>
+        <section id="notes-list"></section>
+    </main>
+    <footer-bar></footer-bar>
+
+</body>
+</html>
